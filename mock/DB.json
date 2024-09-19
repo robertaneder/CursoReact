@@ -1,0 +1,1048 @@
+{
+    "Info": {
+        "resultado": {
+            "NomeSistema": "Orçamento Web (FDO Digital)",
+            "LinkSistema": "https://www.funcef.com.br/apl/IntegracaoOrcamentaria/#!/home",
+            "ImagemSistema": "<i class=\"fas fa-hand-holding-usd\"></i>",
+            "DescricaoSistema": "<i class=\"fas fa-hand-holding-usd\"></i>",
+            "Versao": "1.5.3.0",
+            "VersaoFramework": "4.0.30319.42000",
+            "CodigoModulo": "IOFIO",
+            "ConexaoTibero": "RPROD"
+        },
+        "codNotificacao": null
+    },
+    "BuscarUsuario": {
+        "resultado": {
+            "Id": 23522,
+            "IdPessoa": 1560789,
+            "Login": "DANIELCALDEIRA",
+            "Nome": "DANIEL SOARES CALDEIRA",
+            "Matricula": "1990",
+            "Cargo": "ANALISTA PLENO",
+            "Foto": "data:image/jpg;base64,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",
+            "IdArea": 71326,
+            "NomeArea": "CODES",
+            "NomeDiretoria": "DIACO",
+            "CodigoSituacao": "A",
+            "Situacao": "ATIVIDADE NORMAL",
+            "Email": null,
+            "Documento": null,
+            "TipoGestor": null,
+            "TipoUsuario": 0
+        },
+        "qtdRegistros": 0,
+        "mensagem": null,
+        "codNotificacao": null
+    },
+    "Menu": {
+        "resultado": [
+            {
+                "Id": 5907,
+                "Nome": "Cargos Pessoal",
+                "Descricao": "Cargos Pessoal",
+                "Link": "cargos-pessoal",
+                "Itens": [
+                    {
+                        "Id": 5908,
+                        "Nome": "Desmembramento",
+                        "Descricao": "Desmembramento",
+                        "Link": "desmembramento.excluir",
+                        "Itens": [
+                            {
+                                "Id": null,
+                                "Nome": "Excluir",
+                                "Descricao": null,
+                                "Link": "desmembramento.excluir",
+                                "Itens": [],
+                                "Ocultar": true
+                            }
+                        ],
+                        "Ocultar": true
+                    },
+                    {
+                        "Id": 5909,
+                        "Nome": "FDO Contratação",
+                        "Descricao": "FDO Contratação",
+                        "Link": "fdo-contratacao.incluir",
+                        "Itens": [
+                            {
+                                "Id": null,
+                                "Nome": "Incluir",
+                                "Descricao": null,
+                                "Link": "fdo-contratacao.incluir",
+                                "Itens": [],
+                                "Ocultar": true
+                            }
+                        ],
+                        "Ocultar": true
+                    },
+                    {
+                        "Id": 5910,
+                        "Nome": "Promoção",
+                        "Descricao": "Promoção",
+                        "Link": "promocao.alterar",
+                        "Itens": [
+                            {
+                                "Id": null,
+                                "Nome": "Alterar",
+                                "Descricao": null,
+                                "Link": "promocao.alterar",
+                                "Itens": [],
+                                "Ocultar": true
+                            }
+                        ],
+                        "Ocultar": true
+                    },
+                    {
+                        "Id": 5912,
+                        "Nome": "Transferência",
+                        "Descricao": "Transferência",
+                        "Link": "transferencia.alterar",
+                        "Itens": [
+                            {
+                                "Id": null,
+                                "Nome": "Alterar",
+                                "Descricao": null,
+                                "Link": "transferencia.alterar",
+                                "Itens": [],
+                                "Ocultar": true
+                            }
+                        ],
+                        "Ocultar": true
+                    },
+                    {
+                        "Id": 5916,
+                        "Nome": "Demissão",
+                        "Descricao": "Demissão",
+                        "Link": "demissao.incluir",
+                        "Itens": [
+                            {
+                                "Id": null,
+                                "Nome": "Incluir",
+                                "Descricao": null,
+                                "Link": "demissao.incluir",
+                                "Itens": [],
+                                "Ocultar": true
+                            }
+                        ],
+                        "Ocultar": true
+                    },
+                    {
+                        "Id": 5915,
+                        "Nome": "Consultar",
+                        "Descricao": "Cargos e Saldo",
+                        "Link": "cargos-saldo",
+                        "Itens": [
+                            {
+                                "Id": null,
+                                "Nome": "Consultar",
+                                "Descricao": null,
+                                "Link": "cargos-saldo.consultar",
+                                "Itens": [],
+                                "Ocultar": false
+                            },
+                            {
+                                "Id": null,
+                                "Nome": "Alterar",
+                                "Descricao": null,
+                                "Link": "cargos-saldo.alterar",
+                                "Itens": [],
+                                "Ocultar": true
+                            },
+                            {
+                                "Id": null,
+                                "Nome": "Incluir",
+                                "Descricao": null,
+                                "Link": "cargos-saldo.incluir",
+                                "Itens": [],
+                                "Ocultar": false
+                            },
+                            {
+                                "Id": null,
+                                "Nome": "Excluir",
+                                "Descricao": null,
+                                "Link": "cargos-saldo.excluir",
+                                "Itens": [],
+                                "Ocultar": true
+                            }
+                        ],
+                        "Ocultar": false
+                    },
+                    {
+                        "Id": 5914,
+                        "Nome": "Movimento",
+                        "Descricao": "Movimento",
+                        "Link": "movimento",
+                        "Itens": [
+                            {
+                                "Id": null,
+                                "Nome": "Consultar",
+                                "Descricao": null,
+                                "Link": "movimento.consultar",
+                                "Itens": [],
+                                "Ocultar": false
+                            },
+                            {
+                                "Id": null,
+                                "Nome": "Alterar",
+                                "Descricao": null,
+                                "Link": "movimento.alterar",
+                                "Itens": [],
+                                "Ocultar": true
+                            },
+                            {
+                                "Id": null,
+                                "Nome": "Incluir",
+                                "Descricao": null,
+                                "Link": "movimento.incluir",
+                                "Itens": [],
+                                "Ocultar": false
+                            },
+                            {
+                                "Id": null,
+                                "Nome": "Excluir",
+                                "Descricao": null,
+                                "Link": "movimento.excluir",
+                                "Itens": [],
+                                "Ocultar": true
+                            },
+                            {
+                                "Id": null,
+                                "Nome": "Visualizar",
+                                "Descricao": null,
+                                "Link": "movimento.visualizar",
+                                "Itens": [],
+                                "Ocultar": true
+                            }
+                        ],
+                        "Ocultar": false
+                    },
+                    {
+                        "Id": 5917,
+                        "Nome": "FDOs",
+                        "Descricao": "Consulta de FDOs",
+                        "Link": "fdo-orcamento-pessoal",
+                        "Itens": [
+                            {
+                                "Id": null,
+                                "Nome": "Consultar",
+                                "Descricao": null,
+                                "Link": "fdo-orcamento-pessoal.consultar",
+                                "Itens": [],
+                                "Ocultar": false
+                            },
+                            {
+                                "Id": null,
+                                "Nome": "Alterar",
+                                "Descricao": null,
+                                "Link": "fdo-orcamento-pessoal.alterar",
+                                "Itens": [],
+                                "Ocultar": true
+                            },
+                            {
+                                "Id": null,
+                                "Nome": "Incluir",
+                                "Descricao": null,
+                                "Link": "fdo-orcamento-pessoal.incluir",
+                                "Itens": [],
+                                "Ocultar": false
+                            },
+                            {
+                                "Id": null,
+                                "Nome": "Excluir",
+                                "Descricao": null,
+                                "Link": "fdo-orcamento-pessoal.excluir",
+                                "Itens": [],
+                                "Ocultar": true
+                            },
+                            {
+                                "Id": null,
+                                "Nome": "Visualizar",
+                                "Descricao": null,
+                                "Link": "fdo-orcamento-pessoal.visualizar",
+                                "Itens": [],
+                                "Ocultar": true
+                            }
+                        ],
+                        "Ocultar": false
+                    },
+                    {
+                        "Id": null,
+                        "Nome": "Acessar",
+                        "Descricao": null,
+                        "Link": "cargos-pessoal.acessar",
+                        "Itens": [],
+                        "Ocultar": true
+                    },
+                    {
+                        "Id": null,
+                        "Nome": "Consultar",
+                        "Descricao": null,
+                        "Link": "cargos-pessoal.consultar",
+                        "Itens": [],
+                        "Ocultar": true
+                    },
+                    {
+                        "Id": null,
+                        "Nome": "Visualizar",
+                        "Descricao": null,
+                        "Link": "cargos-pessoal.visualizar",
+                        "Itens": [],
+                        "Ocultar": true
+                    }
+                ],
+                "Ocultar": false
+            },
+            {
+                "Id": 6068,
+                "Nome": "Orçamento Area",
+                "Descricao": "Orçamento Area",
+                "Link": "orcamento-pessoal-area",
+                "Itens": [
+                    {
+                        "Id": null,
+                        "Nome": "Consultar",
+                        "Descricao": null,
+                        "Link": "orcamento-pessoal-area.consultar",
+                        "Itens": [],
+                        "Ocultar": false
+                    },
+                    {
+                        "Id": null,
+                        "Nome": "Alterar",
+                        "Descricao": null,
+                        "Link": "orcamento-pessoal-area.alterar",
+                        "Itens": [],
+                        "Ocultar": true
+                    },
+                    {
+                        "Id": null,
+                        "Nome": "Incluir",
+                        "Descricao": null,
+                        "Link": "orcamento-pessoal-area.incluir",
+                        "Itens": [],
+                        "Ocultar": false
+                    },
+                    {
+                        "Id": null,
+                        "Nome": "Excluir",
+                        "Descricao": null,
+                        "Link": "orcamento-pessoal-area.excluir",
+                        "Itens": [],
+                        "Ocultar": true
+                    },
+                    {
+                        "Id": null,
+                        "Nome": "Visualizar",
+                        "Descricao": null,
+                        "Link": "orcamento-pessoal-area.visualizar",
+                        "Itens": [],
+                        "Ocultar": true
+                    }
+                ],
+                "Ocultar": false
+            },
+            {
+                "Id": 5431,
+                "Nome": "Autorizações",
+                "Descricao": "Autorizações Formulários",
+                "Link": "autorizacoes",
+                "Itens": [
+                    {
+                        "Id": 5488,
+                        "Nome": "Autorização Pop Up",
+                        "Descricao": "Autorização pelo Pop Up",
+                        "Link": "autorizar-fdo-popup",
+                        "Itens": [
+                            {
+                                "Id": null,
+                                "Nome": "Consultar",
+                                "Descricao": null,
+                                "Link": "autorizar-fdo-popup.consultar",
+                                "Itens": [],
+                                "Ocultar": false
+                            },
+                            {
+                                "Id": null,
+                                "Nome": "Alterar",
+                                "Descricao": null,
+                                "Link": "autorizar-fdo-popup.alterar",
+                                "Itens": [],
+                                "Ocultar": true
+                            },
+                            {
+                                "Id": null,
+                                "Nome": "Incluir",
+                                "Descricao": null,
+                                "Link": "autorizar-fdo-popup.incluir",
+                                "Itens": [],
+                                "Ocultar": false
+                            },
+                            {
+                                "Id": null,
+                                "Nome": "Excluir",
+                                "Descricao": null,
+                                "Link": "autorizar-fdo-popup.excluir",
+                                "Itens": [],
+                                "Ocultar": true
+                            },
+                            {
+                                "Id": null,
+                                "Nome": "Visualizar",
+                                "Descricao": null,
+                                "Link": "autorizar-fdo-popup.visualizar",
+                                "Itens": [],
+                                "Ocultar": true
+                            }
+                        ],
+                        "Ocultar": true
+                    },
+                    {
+                        "Id": 5432,
+                        "Nome": "Formulário de Dotação",
+                        "Descricao": "Administrar Autorização de Formulários de FDO",
+                        "Link": "autorizar-fdo",
+                        "Itens": [
+                            {
+                                "Id": null,
+                                "Nome": "Consultar",
+                                "Descricao": null,
+                                "Link": "autorizar-fdo.consultar",
+                                "Itens": [],
+                                "Ocultar": false
+                            },
+                            {
+                                "Id": null,
+                                "Nome": "Alterar",
+                                "Descricao": null,
+                                "Link": "autorizar-fdo.alterar",
+                                "Itens": [],
+                                "Ocultar": true
+                            },
+                            {
+                                "Id": null,
+                                "Nome": "Incluir",
+                                "Descricao": null,
+                                "Link": "autorizar-fdo.incluir",
+                                "Itens": [],
+                                "Ocultar": false
+                            },
+                            {
+                                "Id": null,
+                                "Nome": "Excluir",
+                                "Descricao": null,
+                                "Link": "autorizar-fdo.excluir",
+                                "Itens": [],
+                                "Ocultar": true
+                            },
+                            {
+                                "Id": null,
+                                "Nome": "Visualizar",
+                                "Descricao": null,
+                                "Link": "autorizar-fdo.visualizar",
+                                "Itens": [],
+                                "Ocultar": true
+                            }
+                        ],
+                        "Ocultar": false
+                    },
+                    {
+                        "Id": 5433,
+                        "Nome": "Remanejamento",
+                        "Descricao": "Remanejamento de Orçamentos",
+                        "Link": "rem",
+                        "Itens": [
+                            {
+                                "Id": null,
+                                "Nome": "Consultar",
+                                "Descricao": null,
+                                "Link": "rem.consultar",
+                                "Itens": [],
+                                "Ocultar": false
+                            },
+                            {
+                                "Id": null,
+                                "Nome": "Alterar",
+                                "Descricao": null,
+                                "Link": "rem.alterar",
+                                "Itens": [],
+                                "Ocultar": true
+                            },
+                            {
+                                "Id": null,
+                                "Nome": "Incluir",
+                                "Descricao": null,
+                                "Link": "rem.incluir",
+                                "Itens": [],
+                                "Ocultar": false
+                            },
+                            {
+                                "Id": null,
+                                "Nome": "Visualizar",
+                                "Descricao": null,
+                                "Link": "rem.visualizar",
+                                "Itens": [],
+                                "Ocultar": true
+                            }
+                        ],
+                        "Ocultar": false
+                    },
+                    {
+                        "Id": 5448,
+                        "Nome": "Formulário de Dotação Geral",
+                        "Descricao": "Administrar Autorização de Formulários de FDO",
+                        "Link": "autorizar-fdo-geral",
+                        "Itens": [
+                            {
+                                "Id": null,
+                                "Nome": "Consultar",
+                                "Descricao": null,
+                                "Link": "autorizar-fdo-geral.consultar",
+                                "Itens": [],
+                                "Ocultar": true
+                            },
+                            {
+                                "Id": null,
+                                "Nome": "Visualizar",
+                                "Descricao": null,
+                                "Link": "autorizar-fdo-geral.visualizar",
+                                "Itens": [],
+                                "Ocultar": true
+                            }
+                        ],
+                        "Ocultar": false
+                    },
+                    {
+                        "Id": 5447,
+                        "Nome": "Remanejamento Geral",
+                        "Descricao": "Remanejamento de Orçamentos",
+                        "Link": "rem-geral",
+                        "Itens": [
+                            {
+                                "Id": null,
+                                "Nome": "Consultar",
+                                "Descricao": null,
+                                "Link": "rem-geral.consultar",
+                                "Itens": [],
+                                "Ocultar": true
+                            },
+                            {
+                                "Id": null,
+                                "Nome": "Visualizar",
+                                "Descricao": null,
+                                "Link": "rem-geral.visualizar",
+                                "Itens": [],
+                                "Ocultar": true
+                            }
+                        ],
+                        "Ocultar": false
+                    },
+                    {
+                        "Id": null,
+                        "Nome": "Consultar",
+                        "Descricao": null,
+                        "Link": "autorizacoes.consultar",
+                        "Itens": [],
+                        "Ocultar": true
+                    },
+                    {
+                        "Id": null,
+                        "Nome": "Visualizar",
+                        "Descricao": null,
+                        "Link": "autorizacoes.visualizar",
+                        "Itens": [],
+                        "Ocultar": true
+                    }
+                ],
+                "Ocultar": false
+            },
+            {
+                "Id": 5437,
+                "Nome": "Administrar",
+                "Descricao": "Administração de Configurações",
+                "Link": "administracao-fdo",
+                "Itens": [
+                    {
+                        "Id": 5494,
+                        "Nome": "Parâmetros FDO Digital",
+                        "Descricao": "Configuração Parâmetros FDO Digital",
+                        "Link": "administracao-fdo.consultar",
+                        "Itens": [
+                            {
+                                "Id": null,
+                                "Nome": "Acessar",
+                                "Descricao": null,
+                                "Link": "administracao-fdo.consultar.acessar",
+                                "Itens": [],
+                                "Ocultar": true
+                            },
+                            {
+                                "Id": null,
+                                "Nome": "Consultar",
+                                "Descricao": null,
+                                "Link": "administracao-fdo.consultar.consultar",
+                                "Itens": [],
+                                "Ocultar": false
+                            },
+                            {
+                                "Id": null,
+                                "Nome": "Alterar",
+                                "Descricao": null,
+                                "Link": "administracao-fdo.consultar.alterar",
+                                "Itens": [],
+                                "Ocultar": true
+                            },
+                            {
+                                "Id": null,
+                                "Nome": "Incluir",
+                                "Descricao": null,
+                                "Link": "administracao-fdo.consultar.incluir",
+                                "Itens": [],
+                                "Ocultar": false
+                            },
+                            {
+                                "Id": null,
+                                "Nome": "Excluir",
+                                "Descricao": null,
+                                "Link": "administracao-fdo.consultar.excluir",
+                                "Itens": [],
+                                "Ocultar": true
+                            },
+                            {
+                                "Id": null,
+                                "Nome": "Visualizar",
+                                "Descricao": null,
+                                "Link": "administracao-fdo.consultar.visualizar",
+                                "Itens": [],
+                                "Ocultar": true
+                            }
+                        ],
+                        "Ocultar": false
+                    },
+                    {
+                        "Id": 5495,
+                        "Nome": "Regime de Alçadas",
+                        "Descricao": "Administração Regime de Alçadas",
+                        "Link": "administracao-fdo.alcada",
+                        "Itens": [
+                            {
+                                "Id": null,
+                                "Nome": "Acessar",
+                                "Descricao": null,
+                                "Link": "administracao-fdo.alcada.acessar",
+                                "Itens": [],
+                                "Ocultar": true
+                            },
+                            {
+                                "Id": null,
+                                "Nome": "Consultar",
+                                "Descricao": null,
+                                "Link": "administracao-fdo.alcada.consultar",
+                                "Itens": [],
+                                "Ocultar": false
+                            },
+                            {
+                                "Id": null,
+                                "Nome": "Alterar",
+                                "Descricao": null,
+                                "Link": "administracao-fdo.alcada.alterar",
+                                "Itens": [],
+                                "Ocultar": true
+                            },
+                            {
+                                "Id": null,
+                                "Nome": "Incluir",
+                                "Descricao": null,
+                                "Link": "administracao-fdo.alcada.incluir",
+                                "Itens": [],
+                                "Ocultar": false
+                            },
+                            {
+                                "Id": null,
+                                "Nome": "Excluir",
+                                "Descricao": null,
+                                "Link": "administracao-fdo.alcada.excluir",
+                                "Itens": [],
+                                "Ocultar": true
+                            },
+                            {
+                                "Id": null,
+                                "Nome": "Visualizar",
+                                "Descricao": null,
+                                "Link": "administracao-fdo.alcada.visualizar",
+                                "Itens": [],
+                                "Ocultar": true
+                            }
+                        ],
+                        "Ocultar": false
+                    },
+                    {
+                        "Id": 6071,
+                        "Nome": "Projeto",
+                        "Descricao": "Configurações para cada item de projeto",
+                        "Link": "projeto",
+                        "Itens": [
+                            {
+                                "Id": null,
+                                "Nome": "Consultar",
+                                "Descricao": null,
+                                "Link": "projeto.consultar",
+                                "Itens": [],
+                                "Ocultar": false
+                            },
+                            {
+                                "Id": null,
+                                "Nome": "Alterar",
+                                "Descricao": null,
+                                "Link": "projeto.alterar",
+                                "Itens": [],
+                                "Ocultar": true
+                            },
+                            {
+                                "Id": null,
+                                "Nome": "Incluir",
+                                "Descricao": null,
+                                "Link": "projeto.incluir",
+                                "Itens": [],
+                                "Ocultar": false
+                            },
+                            {
+                                "Id": null,
+                                "Nome": "Excluir",
+                                "Descricao": null,
+                                "Link": "projeto.excluir",
+                                "Itens": [],
+                                "Ocultar": true
+                            },
+                            {
+                                "Id": null,
+                                "Nome": "Visualizar",
+                                "Descricao": null,
+                                "Link": "projeto.visualizar",
+                                "Itens": [],
+                                "Ocultar": true
+                            }
+                        ],
+                        "Ocultar": false
+                    },
+                    {
+                        "Id": 6070,
+                        "Nome": "Rateio",
+                        "Descricao": "Rateio para o sistema externo",
+                        "Link": "rateio",
+                        "Itens": [
+                            {
+                                "Id": null,
+                                "Nome": "Consultar",
+                                "Descricao": null,
+                                "Link": "rateio.consultar",
+                                "Itens": [],
+                                "Ocultar": false
+                            },
+                            {
+                                "Id": null,
+                                "Nome": "Alterar",
+                                "Descricao": null,
+                                "Link": "rateio.alterar",
+                                "Itens": [],
+                                "Ocultar": true
+                            },
+                            {
+                                "Id": null,
+                                "Nome": "Incluir",
+                                "Descricao": null,
+                                "Link": "rateio.incluir",
+                                "Itens": [],
+                                "Ocultar": false
+                            },
+                            {
+                                "Id": null,
+                                "Nome": "Excluir",
+                                "Descricao": null,
+                                "Link": "rateio.excluir",
+                                "Itens": [],
+                                "Ocultar": true
+                            },
+                            {
+                                "Id": null,
+                                "Nome": "Visualizar",
+                                "Descricao": null,
+                                "Link": "rateio.visualizar",
+                                "Itens": [],
+                                "Ocultar": true
+                            }
+                        ],
+                        "Ocultar": false
+                    },
+                    {
+                        "Id": 6069,
+                        "Nome": "Despesa",
+                        "Descricao": "Sub despesas do orçamento",
+                        "Link": "sub-despesa",
+                        "Itens": [
+                            {
+                                "Id": null,
+                                "Nome": "Consultar",
+                                "Descricao": null,
+                                "Link": "sub-despesa.consultar",
+                                "Itens": [],
+                                "Ocultar": false
+                            },
+                            {
+                                "Id": null,
+                                "Nome": "Alterar",
+                                "Descricao": null,
+                                "Link": "sub-despesa.alterar",
+                                "Itens": [],
+                                "Ocultar": true
+                            },
+                            {
+                                "Id": null,
+                                "Nome": "Incluir",
+                                "Descricao": null,
+                                "Link": "sub-despesa.incluir",
+                                "Itens": [],
+                                "Ocultar": false
+                            },
+                            {
+                                "Id": null,
+                                "Nome": "Excluir",
+                                "Descricao": null,
+                                "Link": "sub-despesa.excluir",
+                                "Itens": [],
+                                "Ocultar": true
+                            },
+                            {
+                                "Id": null,
+                                "Nome": "Visualizar",
+                                "Descricao": null,
+                                "Link": "sub-despesa.visualizar",
+                                "Itens": [],
+                                "Ocultar": true
+                            }
+                        ],
+                        "Ocultar": false
+                    },
+                    {
+                        "Id": null,
+                        "Nome": "Acessar",
+                        "Descricao": null,
+                        "Link": "administracao-fdo.acessar",
+                        "Itens": [],
+                        "Ocultar": true
+                    }
+                ],
+                "Ocultar": false
+            },
+            {
+                "Id": 5324,
+                "Nome": "Formulários",
+                "Descricao": "Formulários de Dotação Orçamentária Digital e de Pessoal",
+                "Link": "fdo",
+                "Itens": [
+                    {
+                        "Id": 5892,
+                        "Nome": "Seleção de Ano",
+                        "Descricao": "Permite selecionar o ano na tela de inclusão de FDO",
+                        "Link": "fdo-selecao-ano",
+                        "Itens": [],
+                        "Ocultar": true
+                    },
+                    {
+                        "Id": 5439,
+                        "Nome": "Consulta Geral",
+                        "Descricao": "Consulta todos formulários abertos no sistema",
+                        "Link": "fdo-geral",
+                        "Itens": [
+                            {
+                                "Id": null,
+                                "Nome": "Consultar",
+                                "Descricao": null,
+                                "Link": "fdo-geral.consultar",
+                                "Itens": [],
+                                "Ocultar": true
+                            },
+                            {
+                                "Id": null,
+                                "Nome": "Visualizar",
+                                "Descricao": null,
+                                "Link": "fdo-geral.visualizar",
+                                "Itens": [],
+                                "Ocultar": true
+                            }
+                        ],
+                        "Ocultar": false
+                    },
+                    {
+                        "Id": null,
+                        "Nome": "Acessar",
+                        "Descricao": null,
+                        "Link": "fdo.acessar",
+                        "Itens": [],
+                        "Ocultar": true
+                    },
+                    {
+                        "Id": null,
+                        "Nome": "Consultar",
+                        "Descricao": null,
+                        "Link": "fdo.consultar",
+                        "Itens": [],
+                        "Ocultar": false
+                    },
+                    {
+                        "Id": null,
+                        "Nome": "Alterar",
+                        "Descricao": null,
+                        "Link": "fdo.alterar",
+                        "Itens": [],
+                        "Ocultar": true
+                    },
+                    {
+                        "Id": null,
+                        "Nome": "Incluir",
+                        "Descricao": null,
+                        "Link": "fdo.incluir",
+                        "Itens": [],
+                        "Ocultar": false
+                    },
+                    {
+                        "Id": null,
+                        "Nome": "Excluir",
+                        "Descricao": null,
+                        "Link": "fdo.excluir",
+                        "Itens": [],
+                        "Ocultar": true
+                    },
+                    {
+                        "Id": null,
+                        "Nome": "Visualizar",
+                        "Descricao": null,
+                        "Link": "fdo.visualizar",
+                        "Itens": [],
+                        "Ocultar": true
+                    }
+                ],
+                "Ocultar": false
+            },
+            {
+                "Id": 5434,
+                "Nome": "Relatórios",
+                "Descricao": "Relatórios Dotação Orçamentaria",
+                "Link": "rel",
+                "Itens": [
+                    {
+                        "Id": 5435,
+                        "Nome": "Relatório Orçamentário",
+                        "Descricao": "Relatório Orçamentário",
+                        "Link": "orcamentario",
+                        "Itens": [
+                            {
+                                "Id": null,
+                                "Nome": "Acessar",
+                                "Descricao": null,
+                                "Link": "orcamentario.acessar",
+                                "Itens": [],
+                                "Ocultar": true
+                            },
+                            {
+                                "Id": null,
+                                "Nome": "Consultar",
+                                "Descricao": null,
+                                "Link": "orcamentario.consultar",
+                                "Itens": [],
+                                "Ocultar": true
+                            },
+                            {
+                                "Id": null,
+                                "Nome": "Visualizar",
+                                "Descricao": null,
+                                "Link": "orcamentario.visualizar",
+                                "Itens": [],
+                                "Ocultar": true
+                            }
+                        ],
+                        "Ocultar": false
+                    },
+                    {
+                        "Id": null,
+                        "Nome": "Acessar",
+                        "Descricao": null,
+                        "Link": "rel.acessar",
+                        "Itens": [],
+                        "Ocultar": true
+                    },
+                    {
+                        "Id": null,
+                        "Nome": "Consultar",
+                        "Descricao": null,
+                        "Link": "rel.consultar",
+                        "Itens": [],
+                        "Ocultar": true
+                    },
+                    {
+                        "Id": null,
+                        "Nome": "Visualizar",
+                        "Descricao": null,
+                        "Link": "rel.visualizar",
+                        "Itens": [],
+                        "Ocultar": true
+                    }
+                ],
+                "Ocultar": false
+            },
+            {
+                "Id": 5436,
+                "Nome": "Baixa Pagamento",
+                "Descricao": "Acompanhamento dos FDOs Pendentes para Pagamento",
+                "Link": "pag",
+                "Itens": [
+                    {
+                        "Id": null,
+                        "Nome": "Acessar",
+                        "Descricao": null,
+                        "Link": "pag.acessar",
+                        "Itens": [],
+                        "Ocultar": true
+                    },
+                    {
+                        "Id": null,
+                        "Nome": "Consultar",
+                        "Descricao": null,
+                        "Link": "pag.consultar",
+                        "Itens": [],
+                        "Ocultar": true
+                    },
+                    {
+                        "Id": null,
+                        "Nome": "Alterar",
+                        "Descricao": null,
+                        "Link": "pag.alterar",
+                        "Itens": [],
+                        "Ocultar": true
+                    },
+                    {
+                        "Id": null,
+                        "Nome": "Imprimir",
+                        "Descricao": null,
+                        "Link": "pag.imprimir",
+                        "Itens": [],
+                        "Ocultar": true
+                    },
+                    {
+                        "Id": null,
+                        "Nome": "Visualizar",
+                        "Descricao": null,
+                        "Link": "pag.visualizar",
+                        "Itens": [],
+                        "Ocultar": true
+                    }
+                ],
+                "Ocultar": false
+            }
+        ],
+        "qtdRegistros": 7,
+        "mensagem": null,
+        "codNotificacao": null
+    }
+}
