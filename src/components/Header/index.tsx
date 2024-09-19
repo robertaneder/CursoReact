@@ -1,21 +1,21 @@
-import { Link } from "react-router-dom";
+import { useGeralStore } from "../../store/usuariosStore";
+import { Logo } from "../Logo";
+import { formatacaoNome } from "../../utils/string";
 
- const Header = () => {
-    return (
-      <header className="w-full h-20 flex gap-3 items-center justify-center">
-        <Link className="border px-4 py-2 bg-zinc-300 rounded-2xl hover:bg-zinc-400 hover:cursor-pointer transition-colors ease-in-out duration-700" to="/">
-          home
-        </Link>
-        <Link className="border px-4 py-2 bg-zinc-300 rounded-2xl hover:bg-zinc-400 hover:cursor-pointer transition-colors ease-in-out duration-700" to="/Info">
-          Info
-        </Link>        
-      </header>
-    )
+const Header = () => {
+  const usuario = useGeralStore((state) => state.usuario);
+  return (
+    <header className="w-full h-20 flex gap-3 items-center justify-between bg-azulfuncef border-b-2 border-b-laranjafuncef px-4 py-2">
+      <Logo className="h-10" />
+
+      <div className="flex flex-row gap-2 items-center justify-center">
+        <span className="text-white">
+          {formatacaoNome(usuario?.Nome ?? "")}
+        </span>
+        <img src={usuario?.Foto} alt="" className="h-10 w-10 rounded-full" />
+      </div>
+    </header>
+  );
 };
 
 export default Header;
-
-
-
-
-
